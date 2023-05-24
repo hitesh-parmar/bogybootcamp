@@ -10,8 +10,8 @@ service bogybootcampService
 service inventoryService
 {
     @odata.draft.enabled
-    entity Items as
-        projection on my.Items;
+    entity Categories as
+        projection on my.Categories;
 
     entity Cables as
         projection on my.Cables;

@@ -6,9 +6,9 @@
 		"isFixed": false
 	},
 	{
-		"entity": "Items",
+		"entity": "Generic_Items",
 		"namespace": "inventory",
-		"file": "/home/user/projects/inventory/db/data/inventory-Items.csv",
+		"file": "/home/user/projects/inventory/db/data/inventory-Generic_Items.csv",
 		"isFixed": false
 	},
 	{
@@ -18,9 +18,9 @@
 		"isFixed": false
 	},
 	{
-		"entity": "generic_items",
+		"entity": "Categories",
 		"namespace": "inventory",
-		"file": "/home/user/projects/inventory/db/data/inventory-generic_items.csv",
+		"file": "/home/user/projects/inventory/db/data/inventory-Categories.csv",
 		"isFixed": false
 	}
 ]

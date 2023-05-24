@@ -13,7 +13,7 @@ using
 }
 from '@sap/cds/common';
 
-entity Items
+entity Categories
 {
     key ID : UUID
         @Core.Computed;
@@ -31,7 +31,7 @@ entity Cables
         @Core.Computed;
     shielding : String(100);
     price : Decimal(5,2) not null;
-    items : Association to one Items;
+    items : Association to one Categories;
 }
 
 entity Lamps
@@ -50,7 +50,7 @@ entity Mixers
     manufacturer_name : String(100) not null;
     faults : String(100);
     msrp : Decimal(7,2);
-    items : Association to one Items;
+    items : Association to one Categories;
 }
 
 entity Adapters
@@ -65,7 +65,7 @@ entity Generic_Items
         @Core.Computed;
     name : String(100) not null;
     description : String(1000);
-    items : Association to one Items;
+    items : Association to one Categories;
 }
 
 type Status : String enum

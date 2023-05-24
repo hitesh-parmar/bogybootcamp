@@ -99,18 +99,7 @@
             "css": []
         },
         "routing": {
-            "config": {},
             "routes": [
-                {
-                    "pattern": ":?query:",
-                    "name": "ItemsList",
-                    "target": "ItemsList"
-                },
-                {
-                    "pattern": "Items({key}):?query:",
-                    "name": "ItemsObjectPage",
-                    "target": "ItemsObjectPage"
-                },
                 {
                     "pattern": "Cables({key}):?query:",
                     "name": "CablesObjectPage",
@@ -120,38 +109,19 @@
                     "pattern": "Mixers({key}):?query:",
                     "name": "MixersObjectPage",
                     "target": "MixersObjectPage"
+                },
+                {
+                    "pattern": "Categories({key}):?query:",
+                    "name": "CategoriesObjectPage",
+                    "target": "CategoriesObjectPage"
+                },
+                {
+                    "pattern": ":?query:",
+                    "name": "CategoriesList",
+                    "target": "CategoriesList"
                 }
             ],
             "targets": {
-                "ItemsList": {
-                    "type": "Component",
-                    "id": "ItemsList",
-                    "name": "sap.fe.templates.ListReport",
-                    "options": {
-                        "settings": {
-                            "entitySet": "Items",
-                            "variantManagement": "Page",
-                            "navigation": {
-                                "Items": {
-                                    "detail": {
-                                        "route": "ItemsObjectPage"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                },
-                "ItemsObjectPage": {
-                    "type": "Component",
-                    "id": "ItemsObjectPage",
-                    "name": "sap.fe.templates.ObjectPage",
-                    "options": {
-                        "settings": {
-                            "editableHeaderContent": false,
-                            "entitySet": "Items"
-                        }
-                    }
-                },
                 "CablesObjectPage": {
                     "type": "Component",
                     "id": "CablesObjectPage",
@@ -173,7 +143,40 @@
                             "entitySet": "Mixers"
                         }
                     }
+                },
+                "CategoriesObjectPage": {
+                    "type": "Component",
+                    "id": "CategoriesObjectPage",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Categories",
+                            "navigation": {}
+                        }
+                    }
+                },
+                "CategoriesList": {
+                    "type": "Component",
+                    "id": "CategoriesList",
+                    "name": "sap.fe.templates.ListReport",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Categories",
+                            "navigation": {
+                                "Categories": {
+                                    "detail": {
+                                        "route": "CategoriesObjectPage"
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
+            }
+        },
+        "extends": {
+            "extensions": {
+                "sap.ui.controllerExtensions": {}
             }
         }
     },

@@ -1,6 +1,6 @@
 using inventoryService as service from '../../srv/service';
 
-annotate service.Items with @(
+annotate service.Categories with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
@@ -19,7 +19,7 @@ annotate service.Items with @(
         },
     ]
 );
-annotate service.Items with @(
+annotate service.Categories with @(
     UI.FieldGroup #GeneratedGroup1 : {
         $Type : 'UI.FieldGroupType',
         Data : [
