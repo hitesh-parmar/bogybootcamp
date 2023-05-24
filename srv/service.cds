@@ -19,8 +19,8 @@ service inventoryService
     entity Mixers as
         projection on my.Mixers;
 
-    entity generic_items as
-        projection on my.generic_items;
+    entity Generic_Items as
+        projection on my.Generic_Items;
 }
 
 annotate inventoryService with @requires :

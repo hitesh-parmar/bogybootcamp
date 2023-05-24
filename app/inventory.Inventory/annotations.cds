@@ -47,21 +47,19 @@ annotate service.Items with @(
             Label : 'General Information',
             Target : '@UI.FieldGroup#GeneratedGroup1',
         },
+        
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'List of individual items',
-            ID : 'Listofindividualitems',
-            Target : 'generic_items/@UI.LineItem#Listofindividualitems',
+            Label : 'List of Items',
+            ID : 'ListofItems',
+            Target : 'generic_items/@UI.LineItem#ListofItems',
         },
     ]
 );
-annotate service.generic_items with @(
-    UI.LineItem #Listofindividualitems : [
+
+annotate service.Generic_Items with @(
+    UI.LineItem #ListofItems : [
         {
-            $Type : 'UI.DataField',
-            Value : description,
-            Label : 'description',
-        },{
             $Type : 'UI.DataField',
             Value : ID,
             Label : 'ID',
@@ -73,5 +71,9 @@ annotate service.generic_items with @(
             $Type : 'UI.DataField',
             Value : name,
             Label : 'name',
+        },{
+            $Type : 'UI.DataField',
+            Value : description,
+            Label : 'description',
         },]
 );

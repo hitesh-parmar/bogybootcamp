@@ -22,7 +22,7 @@ entity Items
     category : String(100);
     mixers : Composition of many Mixers on mixers.items = $self;
     cables : Composition of many Cables on cables.items = $self;
-    generic_items : Composition of many generic_items on generic_items.items = $self;
+    generic_items : Composition of many Generic_Items on generic_items.items = $self;
 }
 
 entity Cables
@@ -59,18 +59,18 @@ entity Adapters
         @Core.Computed;
 }
 
-type Status : String enum
-{
-    A = 'Available';
-    B = 'Broken';
-    U = 'In Use';
-}
-
-entity generic_items
+entity Generic_Items
 {
     key ID : UUID
         @Core.Computed;
     name : String(100) not null;
     description : String(1000);
     items : Association to one Items;
+}
+
+type Status : String enum
+{
+    A = 'Available';
+    B = 'Broken';
+    U = 'In Use';
 }

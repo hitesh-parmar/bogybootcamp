@@ -1,0 +1,26 @@
+[
+	{
+		"entity": "Cables",
+		"namespace": "inventory",
+		"file": "/home/user/projects/inventory/db/data/inventory-Cables.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Items",
+		"namespace": "inventory",
+		"file": "/home/user/projects/inventory/db/data/inventory-Items.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Mixers",
+		"namespace": "inventory",
+		"file": "/home/user/projects/inventory/db/data/inventory-Mixers.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "generic_items",
+		"namespace": "inventory",
+		"file": "/home/user/projects/inventory/db/data/inventory-generic_items.csv",
+		"isFixed": false
+	}
+]
