@@ -2,6 +2,10 @@ using { inventory as my } from '../db/schema';
 
 using inventory from '../db/schema';
 
+service bogybootcampService
+{
+}
+
 @path : 'service/inventory'
 service inventoryService
 {
@@ -14,6 +18,9 @@ service inventoryService
 
     entity Mixers as
         projection on my.Mixers;
+
+    entity generic_items as
+        projection on my.generic_items;
 }
 
 annotate inventoryService with @requires :
