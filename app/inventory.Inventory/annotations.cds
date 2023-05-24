@@ -52,7 +52,7 @@ annotate service.Categories with @(
             $Type : 'UI.ReferenceFacet',
             Label : 'List of Items',
             ID : 'ListofItems',
-            Target : 'generic_items/@UI.LineItem#ListofItems',
+            Target : 'generic_items/@UI.PresentationVariant#ListofItems',
         },
     ]
 );
@@ -71,9 +71,45 @@ annotate service.Generic_Items with @(
             $Type : 'UI.DataField',
             Value : name,
             Label : 'name',
-        },{
+        },
+        {
             $Type : 'UI.DataField',
             Value : description,
             Label : 'description',
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : aval_Status_status,
+            Label : 'aval_Status_status',
         },]
+);
+annotate service.Generic_Items with {
+    aval_Status @Common.Text : {
+            $value : aval_Status.name,
+            ![@UI.TextArrangement] : #TextOnly,
+        }
+};
+annotate service.Generic_Items with {
+    aval_Status @Common.ValueListWithFixedValues : true
+};
+annotate service.Aval_Status with {
+    status @Common.Text : {
+            $value : name,
+            ![@UI.TextArrangement] : #TextOnly,
+        }
+};
+annotate service.Generic_Items with @(
+    UI.PresentationVariant #ListofItems : {
+        $Type : 'UI.PresentationVariantType',
+        Visualizations : [
+            '@UI.LineItem#ListofItems',
+        ],
+        SortOrder : [
+            {
+                $Type : 'Common.SortOrderType',
+                Property : aval_Status_status,
+                Descending : false,
+            },
+        ],
+    }
 );

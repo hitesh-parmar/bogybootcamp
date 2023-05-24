@@ -21,6 +21,9 @@ service inventoryService
 
     entity Generic_Items as
         projection on my.Generic_Items;
+
+    entity Aval_Status as
+        projection on my.Aval_Status;
 }
 
 annotate inventoryService with @requires :

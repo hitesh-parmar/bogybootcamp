@@ -168,7 +168,8 @@
                                         "route": "CategoriesObjectPage"
                                     }
                                 }
-                            }
+                            },
+                            "initialLoad": "Enabled"
                         }
                     }
                 }

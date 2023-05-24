@@ -1,2 +1,2 @@
-ID;operating_hours;serial_number;model_name;manufacturer_name;faults;msrp;items_ID
-a15c03cc-37ff-415f-8b75-1cd9d672ae11;2609;;ZED 22FX;Allen&Heath;;600.00;d79255b8-60f2-4592-a33a-d90db5ddd1b9
+ID;operating_hours;serial_number;model_name;manufacturer_name;faults;msrp;items_ID;aval_Status_status
+a15c03cc-37ff-415f-8b75-1cd9d672ae11;2609;;ZED 22FX;Allen&Heath;;600.00;d79255b8-60f2-4592-a33a-d90db5ddd1b9;U

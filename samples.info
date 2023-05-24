@@ -6,6 +6,12 @@
 		"isFixed": false
 	},
 	{
+		"entity": "Categories",
+		"namespace": "inventory",
+		"file": "/home/user/projects/inventory/db/data/inventory-Categories.csv",
+		"isFixed": false
+	},
+	{
 		"entity": "Generic_Items",
 		"namespace": "inventory",
 		"file": "/home/user/projects/inventory/db/data/inventory-Generic_Items.csv",
@@ -15,12 +21,6 @@
 		"entity": "Mixers",
 		"namespace": "inventory",
 		"file": "/home/user/projects/inventory/db/data/inventory-Mixers.csv",
-		"isFixed": false
-	},
-	{
-		"entity": "Categories",
-		"namespace": "inventory",
-		"file": "/home/user/projects/inventory/db/data/inventory-Categories.csv",
 		"isFixed": false
 	}
 ]

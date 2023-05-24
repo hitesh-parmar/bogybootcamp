@@ -9,9 +9,16 @@ using
     cuid,
     extensible,
     managed,
-    temporal
+    temporal,
+    sap.common.CodeList
 }
 from '@sap/cds/common';
+
+annotate Aval_Status
+{
+    name;
+    descr;
+}
 
 entity Categories
 {
@@ -32,6 +39,7 @@ entity Cables
     shielding : String(100);
     price : Decimal(5,2) not null;
     items : Association to one Categories;
+    aval_Status : Association to one Aval_Status;
 }
 
 entity Lamps
@@ -51,6 +59,7 @@ entity Mixers
     faults : String(100);
     msrp : Decimal(7,2);
     items : Association to one Categories;
+    aval_Status : Association to one Aval_Status;
 }
 
 entity Adapters
@@ -66,11 +75,17 @@ entity Generic_Items
     name : String(100) not null;
     description : String(1000);
     items : Association to one Categories;
+    aval_Status : Association to one Aval_Status;
 }
 
-type Status : String enum
+entity Aval_Status : CodeList
 {
-    A = 'Available';
-    B = 'Broken';
-    U = 'In Use';
+    key status : String enum
+    {
+        Available = 'A';
+        In_Use = 'U';
+        Broken = 'B';
+    } default 'A';
+    criticality : Integer;
 }
+
