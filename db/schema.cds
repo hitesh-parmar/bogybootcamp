@@ -20,9 +20,9 @@ entity Items
     name : String(100);
     type : String(100) not null;
     category : String(100);
-    mixers : Association to many Mixers on mixers.items = $self;
-    cables : Association to many Cables on cables.items = $self;
-    generic_items : Association to many generic_items on generic_items.items = $self;
+    mixers : Composition of many Mixers on mixers.items = $self;
+    cables : Composition of many Cables on cables.items = $self;
+    generic_items : Composition of many generic_items on generic_items.items = $self;
 }
 
 entity Cables
