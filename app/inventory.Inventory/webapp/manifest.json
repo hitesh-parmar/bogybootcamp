@@ -110,6 +110,16 @@
                     "pattern": "Items({key}):?query:",
                     "name": "ItemsObjectPage",
                     "target": "ItemsObjectPage"
+                },
+                {
+                    "pattern": "Cables({key}):?query:",
+                    "name": "CablesObjectPage",
+                    "target": "CablesObjectPage"
+                },
+                {
+                    "pattern": "Mixers({key}):?query:",
+                    "name": "MixersObjectPage",
+                    "target": "MixersObjectPage"
                 }
             ],
             "targets": {
@@ -139,6 +149,28 @@
                         "settings": {
                             "editableHeaderContent": false,
                             "entitySet": "Items"
+                        }
+                    }
+                },
+                "CablesObjectPage": {
+                    "type": "Component",
+                    "id": "CablesObjectPage",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "editableHeaderContent": false,
+                            "entitySet": "Cables"
+                        }
+                    }
+                },
+                "MixersObjectPage": {
+                    "type": "Component",
+                    "id": "MixersObjectPage",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "editableHeaderContent": false,
+                            "entitySet": "Mixers"
                         }
                     }
                 }

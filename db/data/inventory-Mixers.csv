@@ -1,6 +1,2 @@
-ID;operating_hours;serial_number;model_name;manufacturer_name;faults;msrp
-a15c03cc-37ff-415f-8b75-1cd9d672ae11;2609;serial_number8387;model_name5885;manufacturer_name197;faults2407;57655.85
-0a0b06e7-58ba-4b24-a94d-ac5cfd42b992;4357;serial_number5902;model_name4111;manufacturer_name503;faults3203;22261.77
-f75ea1f2-6a3d-43e9-926e-2836345e3933;3435;serial_number5040;model_name5362;manufacturer_name9422;faults3190;74105.66
-1957dc47-6b36-4de6-a674-fab44dd6700d;6731;serial_number9412;model_name4242;manufacturer_name1539;faults2276;55776.88
-bf715eac-1885-43e5-91d6-1829dbf5ee08;5262;serial_number1769;model_name7834;manufacturer_name3330;faults8800;60381.26
+ID;operating_hours;serial_number;model_name;manufacturer_name;faults;msrp;items_ID
+a15c03cc-37ff-415f-8b75-1cd9d672ae11;2609;;ZED 22FX;Allen&Heath;;600.00;d79255b8-60f2-4592-a33a-d90db5ddd1b9

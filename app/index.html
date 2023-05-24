@@ -28,7 +28,7 @@
                     return Controller.extend("PreviewController", {
                         onInit: function () {
 
-                            const data = {"Services":[{"ServiceName":"inventoryService","DetailsURL":"./service/inventory/","Metadata":"./service/inventory/$metadata","Entities":[{"Name":"Items","URL":"./service/inventory/Items","FioriURL":"$fiori-preview/inventoryService/Items#preview-app"},{"Name":"Cables","URL":"./service/inventory/Cables","FioriURL":"$fiori-preview/inventoryService/Cables#preview-app"},{"Name":"Mixers","URL":"./service/inventory/Mixers","FioriURL":"$fiori-preview/inventoryService/Mixers#preview-app"}],"EntitiesCount":3}]}
+                            const data = {"Services":[{"ServiceName":"bogybootcampService","DetailsURL":"./bogybootcamp/","Metadata":"./bogybootcamp/$metadata","Entities":[],"EntitiesCount":0},{"ServiceName":"inventoryService","DetailsURL":"./service/inventory/","Metadata":"./service/inventory/$metadata","Entities":[{"Name":"Items","URL":"./service/inventory/Items","FioriURL":"$fiori-preview/inventoryService/Items#preview-app"},{"Name":"Cables","URL":"./service/inventory/Cables","FioriURL":"$fiori-preview/inventoryService/Cables#preview-app"},{"Name":"Mixers","URL":"./service/inventory/Mixers","FioriURL":"$fiori-preview/inventoryService/Mixers#preview-app"},{"Name":"Generic_Items","URL":"./service/inventory/Generic_Items","FioriURL":"$fiori-preview/inventoryService/Generic_Items#preview-app"}],"EntitiesCount":4}]}
                             this.getView().setModel(new JSONModel(data));
                         }
                     });
