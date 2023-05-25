@@ -6,9 +6,15 @@
 		"isFixed": false
 	},
 	{
-		"entity": "Cables",
+		"entity": "Cable_Parent",
 		"namespace": "inventory",
-		"file": "/home/user/projects/inventory/db/data/inventory-Cables.csv",
+		"file": "/home/user/projects/inventory/db/data/inventory-Cable_Parent.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Categories",
+		"namespace": "inventory",
+		"file": "/home/user/projects/inventory/db/data/inventory-Categories.csv",
 		"isFixed": false
 	},
 	{
@@ -21,12 +27,6 @@
 		"entity": "Mixers",
 		"namespace": "inventory",
 		"file": "/home/user/projects/inventory/db/data/inventory-Mixers.csv",
-		"isFixed": false
-	},
-	{
-		"entity": "Categories",
-		"namespace": "inventory",
-		"file": "/home/user/projects/inventory/db/data/inventory-Categories.csv",
 		"isFixed": false
 	}
 ]

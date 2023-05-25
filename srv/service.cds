@@ -9,9 +9,6 @@ service bogybootcampService
 @path : 'service/inventory'
 service inventoryService
 {
-    entity Cables as
-        projection on my.Cables;
-
     entity Mixers as
         projection on my.Mixers;
 
@@ -25,6 +22,11 @@ service inventoryService
     entity Categories as
         projection on my.Categories;
 
+    entity Cables as
+        projection on my.Cables;
+
+    entity Cable_Parent as
+        projection on my.Cable_Parent;
 }
 
 annotate inventoryService with @requires :

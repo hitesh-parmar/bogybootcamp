@@ -1,11 +1,4 @@
 ID;name;description;aval_Status_status;category_name
-b76da585-d92f-4fe6-89c1-fa02e8a9254c;name5263;description4399;A;6.25mm Jack 5m
-089e892f-df96-4a9d-bd42-5e89e6e89b40;name566;description4772;A;6.25mm Jack 0.5m
-956d4b07-35d9-461e-a3ec-61a7844ac403;name6786;description6433;A;XLR 3m
-8031a2d1-16d7-45cb-a228-6867b064a648;name1010;description351;U;6.25mm Jack 10m
-553d0cd1-7911-4357-b052-0d794508a77e;name4961;description2787;U;XLR 15m
-065a4673-78fc-4339-a922-1785a7532b38;name9022;description8825;A;XLR 20m
-d275bc9d-0d5d-4b1b-ae70-0b6f35c714d4;name8063;description2822;U;Schuko8 3m
-73449f42-e800-468f-918b-ec4352dee1ef;name5381;description4837;U;XLR 1m
-949d4720-7734-419b-a41c-dbfad351a47f;name7767;description9327;A;XLR 0.5m
-ea2b6206-c810-4044-a896-c71144487c52;name7059;description1414;U;650W
+01ee9a81-1ed2-4ad0-92a2-ed6e327677d8;Plugbox;description4578;U;Stagebox
+9f9724ff-0a47-4972-8f07-2e802b8a87b0;Plugbox;description2798;A;Stagebox
+8afb6000-eb85-42ed-b979-533752688fb1;Plugbox;description4862;A;Stagebox

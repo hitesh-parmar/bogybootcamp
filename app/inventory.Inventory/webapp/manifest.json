@@ -101,7 +101,7 @@
         "routing": {
             "routes": [
                 {
-                    "pattern": "Cables({key}):?query:",
+                    "pattern": "Cable_Parent({key}):?query:",
                     "name": "CablesObjectPage",
                     "target": "CablesObjectPage"
                 },
@@ -129,7 +129,7 @@
                     "options": {
                         "settings": {
                             "editableHeaderContent": false,
-                            "entitySet": "Cables"
+                            "entitySet": "Cable_Parent"
                         }
                     }
                 },
@@ -178,7 +178,11 @@
         },
         "extends": {
             "extensions": {
-                "sap.ui.controllerExtensions": {}
+                "sap.ui.controllerExtensions": {
+                    "sap.fe.templates.ListReport.ListReportController": {
+                        "controllerName": "inventory.Inventory.ext.controller.Navigation"
+                    }
+                }
             }
         }
     },

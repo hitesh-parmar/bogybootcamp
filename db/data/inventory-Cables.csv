@@ -1,106 +1,201 @@
-ID;shielding;price;aval_Status_status;category_name
-ab9fca09-37ba-48d2-8233-888cc9cf24ed;shielding5864;637.12;B;DMX3 10m
-4fdd6fc2-452e-426d-9c9d-14d11a6ad188;shielding4098;142.24;U;6.25mm Jack 1m
-2c82ff79-1a53-4d8a-9289-a0b3bf1cf96b;shielding6394;382.21;B;Schuko 6m
-d1345e98-ce44-4d4f-a931-0caa673b8037;shielding5101;336.50;A;Schuko3 25m
-8a9866cc-f682-4399-8e3b-5b62436d914f;shielding5394;204.67;B;6.25mm Jack 5m
-755e188c-92ec-462d-90fd-750db84726d4;shielding2834;820.04;B;XLR 15m
-49aac48d-b5dc-480e-b9b1-be41bb93fdc2;shielding1090;126.89;B;VGA 2m
-7b7f0aee-6cc5-495c-824d-351c3fa9b859;shielding7810;730.54;A;Schuko 10m
-58384a1e-dd67-4051-a3f4-89ccb4a97f7e;shielding314;364.79;B;Schuko3 1.5m
-192ff97f-f1b3-43bc-ba44-94332c0b0494;shielding3462;940.24;A;Schuko3 1.5m
-f03872e7-98a9-4f07-9f8b-3406f978cde9;shielding3161;221.00;A;Schuko3 5m
-1272cadc-4d61-45bd-82ac-9334983873b8;shielding1917;392.02;B;XLR 15m
-6f24a6a1-9eb7-4b67-b783-0b10fcc4b6f0;shielding8881;548.73;U;RJ45 Cat.5 2m
-2dc5f446-7fc9-43ff-9163-14ea1e45c211;shielding218;780.93;B;RJ45 Cat.6 3m
-1ab17dab-2e71-42b1-8ad7-a1952d1f614b;shielding8187;453.63;B;Schuko 5m
-f2c6f2c1-49a4-4522-95bc-870a4bf6ca4d;shielding1373;102.29;A;6.25mm Jack 0.5m
-2706d404-ac1c-44d9-8151-a62955bcb3cf;shielding3339;871.53;U;HDMI 5m
-65188d5a-c8c4-42f3-aadd-e0f89bf01cf1;shielding539;277.92;B;XLR 0.5m
-fe877106-8ff3-4406-bca4-102698e2e939;shielding5757;448.92;A;RJ45 Cat.6 2m
-7814937f-b399-4e7b-9a2a-6b593cc98eb0;shielding4053;473.16;B;RJ45 Cat.6 2m
-2263580c-e989-4926-8b49-51e5c4500d45;shielding1762;387.71;U;Schuko 3m
-de858a17-44dd-4a6b-adbe-8b147d2bf8d2;shielding4849;415.33;A;RJ45 Cat.6 2m
-66e27d30-1540-460e-95db-57516f5c3098;shielding6263;309.17;B;RJ45 Cat.5 2m
-3b4a30c8-2590-4333-a222-5a49e7ea493b;shielding9481;164.77;U;Schuko3 1.5m
-78d56f6e-2be5-42f1-ac9b-4a5d9cec1e3b;shielding6396;827.78;A;6.25mm Jack 3m
-177af96a-6502-4cdc-bc23-df0b5259c3f1;shielding5766;355.79;A;XLR 1m
-cb0e1938-9c1c-43e3-8c04-047a23b7ca8c;shielding646;889.68;U;XLR 20m
-1c788c96-cc95-48a4-8bd4-dfb4bf6bca11;shielding8412;978.90;A;6.25mm Jack 5m
-4c8b4a67-537b-4b7e-82c0-abfe705b42e7;shielding6201;599.85;A;RJ45 Cat.6 2m
-79d176f1-b99b-447f-83e1-cabe9b3821b7;shielding4351;606.23;B;XLR 50m
-e3baae27-6ae8-4e32-9152-09f1a1817d61;shielding9605;217.61;B;Schuko 5m
-4a80e832-8db3-41bb-89ea-bb5d63694fec;shielding8634;974.12;A;XLR 5m
-4805afb4-80db-429c-9fd5-7c198381c198;shielding2840;132.54;U;XLR 3m
-ec59859c-bc58-40f2-95f7-29f63cd42bd2;shielding7412;238.17;U;3.5mm Jack 3m
-fef2d03e-ea25-49ee-8cf3-9650cd449e4b;shielding8976;553.67;U;6.25mm Jack 1m
-c10ed358-25cb-46ea-a0bf-665db94589d3;shielding7857;587.33;U;Schuko 6m
-c49af077-41a4-43bd-a520-24f3d5979b2d;shielding9357;233.24;U;VGA 5m
-a3c9db0a-ba91-4ad9-9c17-526c3fd7f1f8;shielding5222;920.29;B;Schuko 7m
-2e51a56a-d47b-47c9-b89e-0f0273156a07;shielding5343;873.71;B;Schuko 3m
-e9e13eb7-f5db-4bbb-8098-c932d79441bc;shielding1286;650.45;A;VGA 2m
-dc8abd3a-7894-406e-a27e-451519ff978b;shielding1588;907.62;A;16A 20m
-203a660d-9352-418f-a52c-db6a6f46fead;shielding6421;733.02;A;Schuko3 25m
-453e7ba9-8b92-44e2-a866-d314ee229a86;shielding4648;588.24;U;Schuko 7m
-0fddc3cf-8ce7-441e-9d1b-64eadb6b0fc5;shielding6993;987.72;B;Schuko 25m
-b507ebe5-5782-438f-a472-d94bb867f5e2;shielding1700;526.08;U;Schuko3 25m
-40067ee6-50db-4e14-a9e7-8758b38ed53b;shielding7558;312.21;B;HDMI 5m
-5116a312-ddc1-4167-b02a-ac4c9fad4468;shielding7131;103.22;A;Schuko3 3m
-e2c07e20-90f6-4ff5-a04a-6155952fa4ca;shielding4394;861.01;A;XLR 3m
-9c793490-8575-47b3-ac4e-2b522e420de5;shielding4166;266.09;A;XLR 20m
-00807f7e-5fb5-4946-9589-aa2cce837339;shielding456;272.18;U;VDE C14 5m
-e2217507-2fc1-4348-a7c0-71933b1d5f08;shielding72;685.84;U;Schuko 10m
-38ca1ffd-2383-43f7-91bc-9a304019ba3b;shielding4846;347.69;B;XLR 15m
-f84a593c-e8bd-455d-8f29-66176f0ceaa0;shielding5734;178.63;B;DMX3 10m
-2d8bd7a6-ea81-439d-948d-2c089fc8cb7c;shielding2884;567.20;B;XLR 10m
-75e08ff3-bd9f-4567-88f9-f9e27a17e800;shielding164;467.30;U;XLR 0.5m
-6ebc7921-57af-48e1-916b-6a182168da80;shielding5656;722.56;A;RJ45 Cat.6 2m
-ed7958a0-a2ca-4098-aed9-a051cb038034;shielding7026;941.28;U;XLR 50m
-30a2f68b-2f59-40ad-abf0-17c8b1a99fd4;shielding8171;310.74;A;XLR 20m
-30f5fc93-19a1-45ce-9818-c2c97df09d8a;shielding629;741.30;U;RJ45 Cat.6 3m
-78b916fb-b0ef-404b-9ac6-9b92983ad868;shielding7851;482.01;U;RJ45 Cat.6 3m
-58589b76-dce9-4ebe-b37b-53094da04fa2;shielding7819;823.82;B;Schuko8 3m
-a6706af3-ad97-44c0-bb88-1e02fddfbec9;shielding5357;776.66;B;RJ45 Cat.6 3m
-ea31c578-9f6a-407c-886d-1977f971c32a;shielding5295;551.63;U;Schuko3 1.5m
-92bd818c-24b1-4041-a235-88c6c09fdc0b;shielding9511;827.60;A;6.25mm Jack 5m
-9cf00e76-978b-4278-9492-06540d6477dc;shielding2914;284.87;A;VDE C14 5m
-8e8d1532-3561-4829-aae9-c577e2673a6b;shielding679;107.02;A;PAR Lamp
-780d6d78-74fa-4068-b2bf-701a619c0042;shielding3746;389.17;A;VGA 2m
-7acb9cf0-657f-44b4-bfb2-4d3142fe465e;shielding1810;665.31;U;Schuko3 3m
-7e4bb188-072f-4765-a430-00c7ca2dec50;shielding491;236.00;U;XLR 20m
-ae0df611-d1e6-4b32-b885-36142371344f;shielding526;334.61;U;RJ45 Cat.6 3m
-875da49a-4420-4414-8fee-ea6a70e04b73;shielding7301;877.82;A;XLR 20m
-5c35cd3f-1f26-4815-a512-1499fd1e290c;shielding1387;551.54;U;XLR 15m
-fdbc12f5-18e1-4c87-999c-b0b012f620b7;shielding1837;181.15;B;XLR 0.5m
-cde4b4f9-6130-41d0-8552-b2780ed1617c;shielding4265;821.98;A;6.25mm Jack 15m
-b0ba1c8e-e92e-477d-b54e-4f06d9f44a9a;shielding4826;157.73;U;16A 20m
-408531c3-bc85-4ea0-9b64-5c88f2cd53d5;shielding493;100.28;A;6.25mm Jack 10m
-f529970b-7930-48da-a672-047943cedb53;shielding1932;968.63;A;6.25mm Jack 1m
-fd26c11c-c7ef-4c55-a046-d78b3745c2b6;shielding5281;379.62;B;XLR 3m
-c61b990c-ebb6-4abf-b81e-4fdcf6456ec0;shielding215;279.25;A;6.25mm Jack 10m
-88742f90-93ad-4e38-b0c1-8c344dd8f4ce;shielding2068;876.63;B;6.25mm Jack 5m
-5620365f-6870-42f9-92b5-dba6a0d77256;shielding9914;183.98;A;XLR 15m
-0d3af643-0116-49be-a3b4-4c65e51de010;shielding3170;1000.8;U;VDE C14 5m
-628c1f47-945e-41ed-bf29-2deac76fb459;shielding3472;205.77;B;VGA 5m
-5b01147e-4b35-4eff-b0fd-83a31d08816a;shielding8788;201.74;A;Schuko 5m
-8d92907f-4823-4ac5-84b7-2d9853258e3a;shielding7020;373.84;U;Schuko3 5m
-bc32746e-7d0f-4cc5-a087-1867f10499a6;shielding7040;717.72;A;XLR 10m
-735047cd-e1cb-48d9-a96e-02849a7e6a79;shielding5223;197.55;B;Schuko3 1.5m
-3d7d66a2-d7fb-4722-a365-a8293ccb804b;shielding5416;938.86;U;XLR 3m
-ae22a4d4-a792-490c-8ddd-80a2f5eead81;shielding9860;708.48;U;XLR 5m
-8f3a61be-c399-42bc-9ccb-22f9a51679da;shielding8900;691.99;A;Schuko 6m
-193561ff-5d51-41f3-99c1-8541be5b8dc1;shielding6177;774.49;B;Schuko4 25m
-8c78017a-265f-4af5-9fd1-4f9f97d59414;shielding8250;482.85;B;Schuko3 3m
-e74d1337-3cd4-4aca-b6e4-389c98314ead;shielding8654;137.06;U;VDE C14 2m
-9b9c762e-65cf-4c93-8e87-55547a150a16;shielding8510;243.46;U;6.25mm Jack 10m
-4545494b-b6c6-4f25-9974-9377197e5be1;shielding5879;473.52;B;VDE C14 3m
-66337990-cdeb-4bab-97aa-97a831785f0e;shielding548;377.25;A;Schuko3 25m
-966f88fb-c148-4026-a11c-23014320da1f;shielding6290;316.93;U;6.25mm Jack 10m
-17c8ca93-b104-4905-ad9c-bcaf3b29133b;shielding8357;819.17;U;6.25mm Jack 3m
-670ac47b-07e7-42aa-ba21-7ebc1379d78d;shielding4327;969.44;U;VDE C14 5m
-3660f4b2-4f81-4a8f-98c5-59211ee0a0ef;shielding9194;192.04;U;HDMI 5m
-6255b2b1-d7fe-4a22-8f34-527c8e151bfa;shielding6620;103.16;U;RJ45 Cat.5 2m
-bdf42c78-b7f3-48c3-821b-0265f923be9e;shielding2804;134.10;B;XLR 1m
-f4407efe-fb72-4989-9494-d025271b603a;shielding7434;812.89;U;XLR 0.5m
-ac839152-5feb-4464-bd98-d67180f79eba;shielding7084;910.20;A;XLR 1m
-387502b3-6ff9-42e0-8f44-0787f385757f;shielding6936;381.93;B;Schuko8 3m
+ID;shielding;price;aval_Status_status;cable_Parent_name
+a5a688ae-b80b-4f12-a700-3d09370f2a6f;shielding4981;221.15;B;XLR_1m
+3bbebab0-251a-4ee1-baf6-dd58419feb90;shielding3338;777.14;A;Schuko_25m
+f5acd2f2-3523-4a95-bcac-6a643796d010;shielding3306;206.68;B;XLR_10m
+9af0b337-018b-4fb8-9a22-1c2302bc26be;shielding727;178.19;A;6.25mm_Jack_2m
+ac353823-b02e-4eb5-ac30-a5d015fb875b;shielding1004;914.40;A;Schuko3_3m
+9c495e51-e6a3-4dda-bd10-627ecb3cbae8;shielding4479;941.36;B;Schuko8_3m
+78494dfd-7f35-40ed-9199-62d90afb43e9;shielding6066;156.14;U;HDMI_5m
+b15db789-b88d-453f-99d5-64439beea88b;shielding8967;222.17;A;XLR_20m
+fd8e5cb1-e2c6-4eb1-a7f2-95ed8f224982;shielding4652;460.12;B;VGA_5m
+269138ba-a680-4006-aff4-ff908e1544b4;shielding7896;948.03;U;VDE_C14_3m
+f3591790-0f7c-4515-aaff-156c938564a6;shielding9447;464.79;B;6.25mm_Jack_2m
+ea7ec634-33d6-49b0-b339-672895a11df4;shielding3904;739.47;A;RJ45_Cat.6_2m
+f71f11ae-6c4d-4ddd-82ab-87bc6789f92d;shielding7166;616.18;U;Schuko_5m
+ec674f9b-3dba-45fc-84ef-08ea123dd995;shielding3547;650.52;U;Schuko3_1.5m
+a23ed361-82b2-4a1f-92b3-4ea84847e7fb;shielding5719;347.27;U;Schuko_3m
+53f6bf49-987c-42ce-9ea4-9ae66fc9d64e;shielding1052;962.74;B;6.25mm_Jack_5m
+619e2e91-35b6-46bd-a6e7-6b42decfe4a7;shielding1090;205.31;U;VDE_C14_3m
+6fdca7f5-0a7e-4521-a332-3545205773ee;shielding8220;295.56;B;Schuko_3m
+cfd527da-41d7-4fad-be55-32973598e7d0;shielding8048;255.16;U;VDE_C14_3m
+d14fd108-37cf-4292-8768-4585aae05ce8;shielding3501;830.77;A;XLR_5m
+7ff04d35-7d52-4136-8724-b51c9371950f;shielding76;773.29;B;6.25mm_Jack_0.5m
+cf3a5fed-4a40-4a0b-bde1-be88ffed4d80;shielding1888;152.73;A;HDMI_5m
+63e5127f-769e-4f9f-b5d2-d55eccec84b6;shielding7174;669.42;B;Schuko3_3m
+e8426ce7-cee7-4a7b-80d4-aa06346a1128;shielding7403;819.97;B;6.25mm_Jack_0.5m
+c55f9314-206d-4b3e-b674-1ad82554f6cf;shielding9909;255.57;A;XLR_20m
+dd1c8824-ea36-4b6a-905b-a39cd2d755a1;shielding1748;994.43;B;Schuko3_1.5m
+f97c1045-976f-4556-9c83-fe9a6f5c7581;shielding5481;781.07;A;Schuko_10m
+9c5b1db3-3831-4cfd-9685-177376e66746;shielding4913;631.60;U;RJ45_Cat.5_2m
+e3cfe14b-770f-4e13-8b8a-2c4bbb7d7443;shielding2623;564.11;A;Schuko_10m
+e76d4d56-2a39-483c-bcee-c1c52b8763e4;shielding613;378.41;U;Schuko4_25m
+ff93f01c-b41e-43b5-b2a0-61321ac972e8;shielding3221;923.38;U;6.25mm_Jack_1m
+69b0917d-d1d8-4d6d-9f08-40699586b79c;shielding5309;140.04;U;Schuko4_25m
+149ede02-b3aa-408b-93ed-72b0ee1bcae5;shielding6129;660.95;U;Schuko_5m
+47f04140-f850-4868-ab30-19a37a8e0294;shielding1110;263.82;B;XLR_10m
+3f58857b-0315-4ed2-9c00-1ca34317f9c4;shielding970;381.19;B;Schuko_6m
+7c58a19b-bcd0-4732-93d1-0a4201bbcc74;shielding7230;599.26;B;RJ45_Cat.5_2m
+6d7884d1-6d06-4525-a9b4-59921ca8c1d1;shielding7415;855.64;B;16A_20m
+a94a4c2c-5967-4d35-acca-bd0fd137d97c;shielding1989;463.22;A;16A_20m
+447e4d84-cb45-4482-8128-7196e88ec891;shielding7006;861.80;B;Schuko_25m
+dcf152c3-5ed2-43ea-8ad0-abdf4397bd48;shielding4211;521.10;A;VDE_C14_2m
+73be0881-e727-4fc2-bd3a-a14d9be15f62;shielding7473;243.99;A;XLR_5m
+79cc1b3d-821b-4949-ba26-7d2e37422148;shielding3159;672.87;A;6.25mm_Jack_5m
+e663db45-b83a-4098-8b6e-01d1c60c6dc7;shielding8883;680.02;U;RJ45_Cat.6_2m
+b4c8c566-8a7b-4138-b745-fed91ddede24;shielding1675;176.18;U;XLR_20m
+4a0f7309-321d-4405-ae32-aad151165e4b;shielding1027;481.79;B;XLR_3m
+2b4b9793-f966-4db4-a083-a3bb16a8ac8b;shielding8753;657.98;B;Schuko3_1.5m
+61aca73a-08ab-40ac-b601-0039d1839a04;shielding5473;419.80;U;Schuko3_25m
+8eca9544-7734-4734-9bdf-08d188dfb5cc;shielding4590;168.43;U;6.25mm_Jack_15m
+19435d12-5c15-477f-98ac-468df1246b36;shielding6227;870.53;B;XLR_0.5m
+b8766243-8de5-4854-82f4-8e89c33c6c5e;shielding6372;466.73;B;VGA_2m
+74241b33-c884-4d6e-8592-1693fde3178c;shielding4548;807.57;U;HDMI_5m
+50829ccf-4a94-4f9f-af25-f92c1b1d895c;shielding3070;425.86;U;HDMI_5m
+72c29be5-7b9e-4cf2-8827-2c254c377b44;shielding9778;955.04;A;Schuko_7m
+cbadcbbd-03a2-43c1-bbe7-f2184922b15b;shielding8614;241.64;A;Schuko_25m
+16cd5286-f939-462a-a83f-8c4a2c5a18fd;shielding1255;637.54;U;RJ45_Cat.6_2m
+ffb80fdd-0573-4812-b9bc-4cfbabc1667b;shielding455;102.38;U;RJ45_Cat.5_2m
+83e645e3-0e91-4ff5-b7b2-34797e0a557a;shielding6047;519.24;B;XLR_1m
+e8e3e3af-c7d5-496e-a135-9c0782faa979;shielding3380;281.40;A;Schuko_6m
+af3f7923-0d2b-4531-88f4-086b5122df88;shielding7955;371.91;U;Schuko_20m
+55b172d1-5d44-4b0b-9960-c2aa91bd46d6;shielding4568;689.06;B;VDE_C14_3m
+e16b7f51-b18a-4a24-a0ce-3d4e3480001a;shielding50;257.31;U;DMX3_10m
+dd3d3ad8-ee79-47b1-b754-b27098d89a62;shielding7733;318.31;A;Schuko_7m
+940afe8b-7ff5-4859-a268-c0c982ba3d6d;shielding2010;109.79;U;RJ45_Cat.5_2m
+76ab7b55-4d5c-44d1-b0f6-45645d25a1c0;shielding9892;821.44;A;XLR_10m
+83e83c9c-a420-42ea-a1d4-eabdf30a3e81;shielding1727;443.79;A;Schuko_3m
+6d52d95c-8bfb-4b71-941a-5d15cad4f607;shielding6549;415.55;B;Schuko6_1.5m
+4850d9af-88ac-44af-b79b-9e671b48c135;shielding4529;439.82;U;XLR_5m
+b90b0ebc-113e-46d7-bbb8-7a777901a987;shielding3244;928.67;B;XLR_5m
+3c8b66a7-22f1-4ba4-99dc-1cac7f1351c8;shielding1812;517.31;B;6.25mm_Jack_0.5m
+8ee0ad35-a728-4bff-85f5-16804f296abf;shielding2145;151.60;A;Schuko4_25m
+68c29dec-5b1f-4c69-bd5a-d6560d7f887f;shielding7938;441.79;B;6.25mm_Jack_0.5m
+6ccd94eb-2f19-4d5f-81c4-e7ec44d778b2;shielding4062;345.57;A;Schuko3_5m
+dd1239c4-1734-42bb-82a1-28f70098cbb4;shielding5060;368.81;U;RJ45_Cat.5_2m
+53351814-01cf-4a83-a788-77ca0163c39e;shielding1109;235.57;U;Schuko3_1.5m
+232bc40f-7f71-4dca-b090-1b13c571792b;shielding9712;355.17;U;6.25mm_Jack_15m
+6d56eb50-578a-464b-8e25-0bc41dd330e4;shielding3243;350.99;B;Schuko_10m
+b5b82570-b804-43b9-bafd-36f3cdce7cbc;shielding7955;982.39;A;6.25mm_Jack_0.5m
+b01a8ebf-78f6-4ac3-9ccc-47e12205fa7a;shielding2148;514.51;U;VGA_2m
+f776d1e7-6680-4db8-a7a5-06ed07eb5de6;shielding7558;494.46;A;Schuko3_5m
+d235636d-57e5-4ac0-bef4-432347f75649;shielding9301;791.85;U;XLR_10m
+181dd449-ddd1-432e-abc8-bd884463d65f;shielding4632;932.65;U;Schuko_5m
+2b764deb-9bfe-4cd0-8885-0bedbe53811c;shielding3232;749.84;U;VDE_C14_3m
+807aadc2-ce82-4aea-85bd-288515c92dc1;shielding813;181.51;A;XLR_20m
+c39e8261-3b45-49d2-9bb3-61c00838526e;shielding1845;911.61;A;XLR_1m
+a8f5273f-a436-4362-9e6b-7bc1b5ee4ce3;shielding2883;954.58;A;6.25mm_Jack_2m
+5987e1c1-e53c-4965-a2d8-33ea2b9e44bc;shielding2358;986.76;U;Schuko6_1.5m
+fe54819e-2e33-4b7e-a874-ef9580dd43b3;shielding5505;104.43;U;VGA_5m
+10bc871a-b59f-429f-9aaf-7db82c397846;shielding7262;829.93;U;Schuko_10m
+5cd0c9fa-f6aa-4dd7-bb8c-5a2f2c1da7b1;shielding1736;459.97;A;XLR_3m
+03f4d0ec-a8d6-42b8-a769-05b9a3e4ad30;shielding8711;330.63;A;Schuko_6m
+b8621edf-eed3-4cc8-a8d2-e2737d6c9021;shielding4390;607.50;U;VDE_C14_2m
+66faed5d-a88a-4136-9830-6a0822f25b52;shielding894;867.30;U;6.25mm_Jack_3m
+8c3ec333-2101-42b7-a65b-b0534eb1e9bb;shielding6845;605.05;B;Schuko_10m
+e5d2edb7-bd49-483f-a8a1-ff5a22c065c3;shielding6931;146.48;U;Schuko8_3m
+3edd6ffa-04e7-42dd-8854-70d59563144b;shielding4481;559.37;A;XLR_3m
+88507756-4830-4840-9c2e-cd64c7570ce1;shielding1502;291.21;B;Schuko_20m
+25e8b4fc-3504-4ea5-beee-0478126443f7;shielding2640;565.92;A;Schuko_25m
+081de36b-2fc5-4fec-885a-98afee606d19;shielding3512;908.67;U;XLR_0.5m
+d7375332-0b27-48c7-8e3e-e9480e301006;shielding4427;201.34;U;Schuko_3m
+b96bce68-9163-41d2-ac4c-f60e70ac7e76;shielding6422;174.42;B;Schuko_20m
+e49b2fe4-3b63-499c-965d-6479306fa017;shielding6955;817.53;U;XLR_50m
+78e79298-c49b-44ae-959b-4b84e797fd56;shielding991;804.98;B;Schuko_7m
+850a29e5-8619-4b72-81a5-14a7d05ac284;shielding3597;559.27;B;XLR_20m
+d7e3b6a1-775b-4d83-a8f3-0f9df16afa76;shielding4998;774.03;U;XLR_1m
+9318ec46-8ac4-4af6-88a7-be71ca5f20f9;shielding7628;549.74;U;6.25mm_Jack_1m
+f6cced30-130c-493c-9406-efd64302dc4f;shielding5378;245.81;A;6.25mm_Jack_2m
+5ef2b123-d48e-480d-aed1-e302b4c27a33;shielding6402;117.71;B;HDMI_3m
+1280d7e2-9fb4-4774-89f9-e724c48fcc73;shielding4652;756.35;A;XLR_50m
+01cbbb8c-b935-4090-b7cc-d83304a473c5;shielding5233;366.51;A;Schuko4_25m
+71b5d080-45e6-46b0-b384-67bfc173983a;shielding8413;119.38;B;DMX3_10m
+2b1cd169-39f1-4dcb-ab8f-61ff1e86a611;shielding9109;913.76;B;16A_20m
+e0849972-3cdd-46d8-abd6-5ecd5b19bb72;shielding3980;802.54;A;Schuko3_1.5m
+917c8655-4587-48b4-9bcc-f3c7da728ca6;shielding735;252.14;B;16A_20m
+84716952-7f76-47e2-aee0-3ba93601be69;shielding3307;384.24;U;XLR_15m
+c050da5a-0569-4053-a925-2ee2df005caa;shielding896;823.54;U;Schuko6_1.5m
+28b5416c-0de6-4dec-8ae8-85148e81684f;shielding7011;534.23;B;XLR_3m
+8ba3a750-2c90-46e9-bc9d-6826141ef430;shielding2970;668.47;A;Schuko_7m
+edb4dd02-721d-4089-92d7-c4711d731c8c;shielding6524;538.54;A;6.25mm_Jack_0.5m
+f281de4e-9b72-480b-8f2e-5dad44d56a84;shielding6841;435.06;A;6.25mm_Jack_3m
+d4f3d353-16bc-4270-a54a-97f28a3bee5b;shielding5425;750.61;B;6.25mm_Jack_3m
+1bf61a58-6d28-4f21-9878-e4aafb1e2d71;shielding4828;448.44;A;XLR_3m
+9f53e15b-9874-4e37-8758-e92e3a77ae9e;shielding1746;392.88;U;6.25mm_Jack_10m
+70b1628e-09d8-4b3b-b8d4-ba60745c94ef;shielding8807;922.98;B;6.25mm_Jack_0.5m
+45810aaa-dce5-485d-bdb1-c0de64501aea;shielding5238;814.38;B;Schuko_6m
+6a0d1ca1-864f-4042-9c55-84928e63db6b;shielding2163;805.87;A;Schuko2_3m
+c6dbf186-b9f4-42ac-9d6e-a9574ae250cd;shielding9838;259.88;U;Schuko_6m
+3aa489e1-6b26-4840-98f9-f4bca95e7f16;shielding4567;506.89;A;Schuko4_25m
+208be377-5587-4961-9bd9-6e5064b93e7f;shielding5377;637.92;U;XLR_1m
+543184fd-c4ae-4367-945b-6a5126252184;shielding4851;500.69;A;XLR_10m
+c66e1ab3-6b77-4486-a33e-22fc95e9b386;shielding5690;364.45;A;VDE_C14_2m
+49ce914c-7136-480a-b73a-49a8d65d72c8;shielding6210;119.94;U;6.25mm_Jack_15m
+fc6d240c-67bb-4410-b670-51ab1b8ce099;shielding9694;179.55;A;6.25mm_Jack_5m
+b6c8cb0d-2a2c-4646-9ebb-92317ef9eec5;shielding9606;711.14;U;6.25mm_Jack_2m
+75eac86b-f16b-4409-8977-54c1bf4cfaae;shielding7896;992.53;A;XLR_15m
+0faf6c69-9da0-4f75-a189-a5197f9fbf24;shielding4247;461.45;A;XLR_50m
+68bd8701-61d0-4c56-b839-56f8d38f4abf;shielding209;291.84;U;VGA_5m
+a4492136-8aca-4741-983a-de359517b4be;shielding4472;165.76;A;16A_20m
+239b91df-21a7-42de-a481-6031bae41233;shielding7749;219.06;B;6.25mm_Jack_15m
+78f1e9b3-9d03-494c-bcb5-f2299dcead5a;shielding3300;785.20;A;6.25mm_Jack_15m
+49004d62-3261-4f30-a08a-5500c951ee82;shielding3073;934.48;B;6.25mm_Jack_0.5m
+752810eb-9eaa-432d-8679-6f113945bbcb;shielding6334;998.58;B;Schuko_6m
+85d667e6-e512-4194-b68c-c82d459ac02a;shielding8710;144.00;U;Schuko_10m
+5cdfeeec-1ba5-4b1d-8c32-189e3dcf4e2c;shielding406;266.32;A;RJ45_Cat.5_2m
+aa8b0a77-557f-4abb-bc91-139fc0f56f75;shielding4500;277.89;U;XLR_5m
+d6f0685c-c763-4881-a71d-2af16f46242f;shielding151;269.31;B;Schuko8_3m
+26d54c3a-c955-4e79-8cee-4b14870c2f56;shielding3766;681.07;A;XLR_10m
+307c081c-39f3-488a-a838-65a10d7ca506;shielding5216;429.14;A;Schuko_3m
+cb86f277-513b-4c7c-aa17-2732162593c8;shielding813;862.20;U;Schuko6_1.5m
+080708ae-c182-42f1-97f0-cf6e67837cf7;shielding9843;194.89;U;Schuko_3m
+4f26893d-2c7a-4186-9f2f-2a12bc3ecfc6;shielding2309;548.39;U;HDMI_3m
+92fa04ae-5ff5-4397-b433-f18e856ac0c5;shielding8344;891.02;A;RJ45_Cat.6_3m
+9ed6f73e-5280-42c6-b7db-817578c932fa;shielding2048;482.96;B;Schuko3_5m
+1770d0be-74b8-4912-ad6b-bbf29b210d30;shielding6238;188.39;A;6.25mm_Jack_1m
+188d2fa7-03a0-41d5-b143-aaab34ead69c;shielding3657;156.96;U;6.25mm_Jack_0.5m
+592f2f02-de41-4ae4-bdf9-54d105fe8d48;shielding2631;782.15;B;HDMI_5m
+796db03d-08a9-4700-9f9d-8a9bc80a419f;shielding5490;118.88;B;XLR_1m
+93cc399e-3add-4eba-90fb-ba0e7cb6fed7;shielding9637;247.15;A;6.25mm_Jack_1m
+e2c5e7fd-a594-40f8-8c49-8f7db9030ed4;shielding6247;210.79;U;Schuko_5m
+4bf695f4-4971-45aa-83a2-db2e1106eee5;shielding7563;808.24;A;HDMI_5m
+c0843b19-780f-48bb-b2ea-9cad336fa7b9;shielding7018;632.44;B;Schuko8_3m
+84bfca0a-ad0b-4c70-8fa9-e1e31ebf3ccd;shielding644;949.11;B;Schuko_5m
+ca6096d3-8ce3-4ef5-89cd-f2317afa3410;shielding5531;719.56;U;RJ45_Cat.6_2m
+fa819ee9-20f5-4211-bec3-e7a596debb5e;shielding9942;356.32;B;RJ45_Cat.6_2m
+207eb066-3938-4528-927a-efd5b705293b;shielding2055;961.32;U;Schuko_10m
+2bae201b-69c6-45ab-aa67-22cac3f9b1db;shielding8103;155.92;U;XLR_1m
+de939298-a51b-4a2a-87c3-d29b28d4d7c0;shielding8897;842.67;B;3.5mm_Jack_3m
+4fc03bc1-fe9d-423a-a044-f689cf76cee0;shielding4559;344.80;B;Schuko3_25m
+b206a189-f6be-4b64-8ea4-bb7d6244c4f5;shielding8393;395.50;U;Schuko_5m
+c4e830ac-6a9b-4eef-8ed2-4914b73dfb4d;shielding4526;479.97;U;VDE_C14_3m
+7b6e8e6a-b279-487b-82a5-10a346494d46;shielding8039;364.78;U;Schuko_25m
+f7ed4af4-3fed-4a73-a573-3a59a81df4a7;shielding1639;370.32;B;VDE_C14_2m
+d4da7f13-feee-4624-b896-648d89cd20a0;shielding7624;906.37;B;Schuko_7m
+0dc78f84-850b-4b76-a7d4-bbf8622c1e4c;shielding2317;222.14;B;Schuko_5m
+d539eea3-73b5-4bb2-9024-783409b1aa0e;shielding5421;702.85;U;6.25mm_Jack_2m
+94afbb47-8bae-4827-b588-2f9e1720255c;shielding2057;684.65;B;Schuko_7m
+f7b8a8af-0539-4ed9-a34d-3c5ddbe404b5;shielding3042;353.64;B;Schuko_3m
+e2e085fd-161c-45e9-9eb8-4ac70ce3b60d;shielding575;485.29;U;XLR_50m
+0e0f07b6-fb93-4826-8060-aff6d289a041;shielding624;645.38;A;XLR_5m
+0c6530a2-53d2-429d-8e48-bcc040bb8b85;shielding6959;141.91;U;XLR_15m
+34929978-20c0-480e-b4a5-78b81f2ca876;shielding168;449.76;U;Schuko2_3m
+bf28d05f-2037-49b4-bcab-7c633c2570de;shielding6891;555.12;U;3.5mm_Jack_3m
+20757e5d-0bba-4ec1-879f-9ccc15339b0c;shielding4535;114.48;U;XLR_10m
+c5e02267-efa8-4735-a9aa-7ac938bf798e;shielding6645;810.37;A;6.25mm_Jack_3m
+282f1bf7-3cf0-4468-9daa-f8b9d053c48e;shielding3226;273.31;B;Schuko3_1.5m
+1bc6f529-8b5e-43cd-a33d-53284821d266;shielding9336;292.31;U;XLR_1m
+d29ee559-989a-4333-b2cd-acd283dfd39a;shielding1690;511.73;B;XLR_3m
+378922fc-dd82-44bc-884a-538d14ea59b2;shielding8834;466.18;B;Schuko3_1.5m
+643938c1-81af-432b-b76a-4a36931a31db;shielding4648;475.80;B;6.25mm_Jack_3m
+7c678016-3757-46d2-99b4-08b92bb7a946;shielding8312;205.97;U;Schuko_6m
+a78c586e-42b2-41bc-96c2-2af2ed99db1b;shielding4250;278.46;U;VGA_5m
+45f0fc85-8a8e-438c-bcd0-5832a8ea5298;shielding7375;153.65;B;3.5mm_Jack_3m
+8e8fa62d-8c94-4024-9f25-7162d4823e71;shielding2678;884.09;A;Schuko4_25m
+d6e05988-78d8-4958-bc05-1634ec567054;shielding1131;592.46;A;XLR_1m
+7437f4ff-2044-46a0-95ee-16c439f317a5;shielding8795;508.70;A;6.25mm_Jack_1m
+d0b0d403-14a8-457e-a566-8b222921e8f3;shielding2094;530.79;B;Schuko_5m
+9ff27fe0-bf50-4a67-8c2c-bc7f6d564499;shielding3233;161.38;B;XLR_20m
+5fb94004-7a1b-4644-ac74-d6ec9a7f9d3f;shielding3954;944.59;U;Schuko_7m
+70f7f9c1-4327-432c-b485-01ac2f08ac02;shielding5303;773.34;A;VGA_2m
+6e05e963-61c7-4f4a-a49a-2c64e7b90994;shielding8344;344.37;B;6.25mm_Jack_3m
+29911320-ee02-42f3-ae30-0d1e3d1d2e04;shielding3447;532.39;B;Schuko_20m
