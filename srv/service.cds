@@ -9,10 +9,6 @@ service bogybootcampService
 @path : 'service/inventory'
 service inventoryService
 {
-    @odata.draft.enabled
-    entity Categories as
-        projection on my.Categories;
-
     entity Cables as
         projection on my.Cables;
 
@@ -24,6 +20,9 @@ service inventoryService
 
     entity Aval_Status as
         projection on my.Aval_Status;
+
+    entity Categories as
+        projection on my.Categories;
 }
 
 annotate inventoryService with @requires :

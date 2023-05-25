@@ -65,10 +65,6 @@ annotate service.Generic_Items with @(
             Label : 'ID',
         },{
             $Type : 'UI.DataField',
-            Value : items_ID,
-            Label : 'items_ID',
-        },{
-            $Type : 'UI.DataField',
             Value : name,
             Label : 'name',
         },

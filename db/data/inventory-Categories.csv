@@ -1,6 +1,50 @@
-ID;name;type;category
-d79255b8-60f2-4592-a33a-d90db5ddd1b9;XLR Cable 0.5m;analog;XLR Cable
-94963a7b-f162-4f54-85c5-71661af434e5;XLR Cable 1m;analog;XLR Cable
-5bed1c91-4799-4fdb-ba3c-2a8931ace682;XLR Cable 3m;analog;XLR Cable
-f3a6d038-30b0-41cc-bf6d-d59ac98c2ca7;XLR Cable 5m;analog;XLR Cable
-efe9793b-299c-42f5-bb35-89011227b31c;XLR Cable 10m;analog;XLR Cable
+name;type;category
+XLR 0.5m;analog;Cable
+XLR 1m;analog;Cable
+XLR 3m;analog;Cable
+XLR 5m;analog;Cable
+XLR 15m;analog;Cable
+XLR 20m;analog;Cable
+VGA 2m;analog;Cable
+VGA 5m;analog;Cable
+3.5mm Jack 3m;analog;Cable
+6.25mm Jack 0.5m;analog;Cable
+6.25mm Jack 1m;analog;Cable
+6.25mm Jack 2m;analog;Cable
+6.25mm Jack 3m;analog;Cable
+6.25mm Jack 5m;analog;Cable
+6.25mm Jack 10m;analog;Cable
+6.25mm Jack 15m;analog;Cable
+DMX3 10m;digital;Cable
+XLR 10m;analog;Cable
+16A 20m;analog;Cable
+RJ45 Cat.5 2m;digital;Cable
+RJ45 Cat.6 2m;digital;Cable
+RJ45 Cat.6 3m;digital;Cable
+HDMI 3m;digital;Cable
+HDMI 5m;digital;Cable
+VDE C14 3m;analog;Cable
+VDE C14 5m;analog;Cable
+VDE C14 2m;analog;Cable
+XLR 50m;analog;Cable
+Schuko3 25m;analog;Cable
+Schuko4 25m;analog;Cable
+Schuko 3m;analog;Cable
+Schuko 5m;analog;Cable
+Schuko 6m;analog;Cable
+Schuko 7m;analog;Cable
+Schuko 10m;analog;Cable
+Schuko 20m;analog;Cable
+Schuko 25m;analog;Cable
+Schuko2 3m;analog;Cable
+Schuko3 1.5m;analog;Cable
+Schuko3 3m;analog;Cable
+Schuko3 5m;analog;Cable
+Schuko6 1.5m;analog;Cable
+Schuko8 3m;analog;Cable
+1kW;halogen;Lamp
+650W;halogen;Lamp
+PAR Lamp;led;Lamp
+1kW Profiler;halogen;Lamp
+Audio Mixer;analog;Mixer
+Stagebox;analog;Other

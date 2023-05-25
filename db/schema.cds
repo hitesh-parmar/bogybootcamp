@@ -22,14 +22,12 @@ annotate Aval_Status
 
 entity Categories
 {
-    key ID : UUID
-        @Core.Computed;
-    name : String(100);
+    key name : String(100);
     type : String(100) not null;
-    category : String(100);
-    mixers : Composition of many Mixers on mixers.items = $self;
-    cables : Composition of many Cables on cables.items = $self;
-    generic_items : Composition of many Generic_Items on generic_items.items = $self;
+    category : String(100) not null;
+    mixers : Composition of many Mixers on mixers.category = $self;
+    cables : Composition of many Cables on cables.category = $self;
+    generic_items : Composition of many Generic_Items on generic_items.category = $self;
 }
 
 entity Cables
@@ -38,8 +36,8 @@ entity Cables
         @Core.Computed;
     shielding : String(100);
     price : Decimal(5,2) not null;
-    items : Association to one Categories;
     aval_Status : Association to one Aval_Status;
+    category : Association to one Categories;
 }
 
 entity Lamps
@@ -58,8 +56,8 @@ entity Mixers
     manufacturer_name : String(100) not null;
     faults : String(100);
     msrp : Decimal(7,2);
-    items : Association to one Categories;
     aval_Status : Association to one Aval_Status;
+    category : Association to one Categories;
 }
 
 entity Adapters
@@ -74,8 +72,8 @@ entity Generic_Items
         @Core.Computed;
     name : String(100) not null;
     description : String(1000);
-    items : Association to one Categories;
     aval_Status : Association to one Aval_Status;
+    category : Association to one Categories;
 }
 
 entity Aval_Status : CodeList
