@@ -21,8 +21,10 @@ service inventoryService
     entity Aval_Status as
         projection on my.Aval_Status;
 
+    @odata.draft.enabled
     entity Categories as
         projection on my.Categories;
+
 }
 
 annotate inventoryService with @requires :

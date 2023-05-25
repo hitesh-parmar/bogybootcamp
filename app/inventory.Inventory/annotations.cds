@@ -47,12 +47,11 @@ annotate service.Categories with @(
             Label : 'General Information',
             Target : '@UI.FieldGroup#GeneratedGroup1',
         },
-        
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'List of Items',
-            ID : 'ListofItems',
-            Target : 'generic_items/@UI.PresentationVariant#ListofItems',
+            Label : 'Items',
+            ID : 'Items',
+            Target : 'generic_items/@UI.LineItem#Items',
         },
     ]
 );
@@ -107,5 +106,49 @@ annotate service.Generic_Items with @(
                 Descending : false,
             },
         ],
+    }
+);
+annotate service.Generic_Items with @(
+    UI.LineItem #Items : [
+        {
+            $Type : 'UI.DataField',
+            Value : ID,
+            Label : 'Item ID',
+        },{
+            $Type : 'UI.DataField',
+            Value : name,
+            Label : 'Item Name',
+        },{
+            $Type : 'UI.DataField',
+            Value : description,
+            Label : 'Item Description',
+        },{
+            $Type : 'UI.DataField',
+            Value : aval_Status_status,
+            Label : 'Item Availability Status',
+            Criticality : aval_Status.criticality,
+        },]
+);
+annotate service.Categories with @(
+    UI.SelectionPresentationVariant #table : {
+        $Type : 'UI.SelectionPresentationVariantType',
+        PresentationVariant : {
+            $Type : 'UI.PresentationVariantType',
+            Visualizations : [
+                '@UI.LineItem',
+            ],
+            SortOrder : [
+                {
+                    $Type : 'Common.SortOrderType',
+                    Property : category,
+                    Descending : true,
+                },
+            ],
+        },
+        SelectionVariant : {
+            $Type : 'UI.SelectionVariantType',
+            SelectOptions : [
+            ],
+        },
     }
 );
