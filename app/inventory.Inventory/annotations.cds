@@ -4,18 +4,18 @@ annotate service.Categories with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
-            Label : 'name',
+            Label : '{i18n>ItemSubcategory}',
             Value : name,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'type',
-            Value : type,
+            Label : '{i18n>Category}',
+            Value : category,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'category',
-            Value : category,
+            Label : '{i18n>Type}',
+            Value : type,
         },
     ]
 );
@@ -44,7 +44,7 @@ annotate service.Categories with @(
         },
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'Items',
+            Label : '{i18n>Items}',
             ID : 'Items',
             Target : 'generic_items/@UI.PresentationVariant#Items',
         },
@@ -108,19 +108,19 @@ annotate service.Generic_Items with @(
         {
             $Type : 'UI.DataField',
             Value : ID,
-            Label : 'Item ID',
+            Label : '{i18n>ItemId}',
         },{
             $Type : 'UI.DataField',
             Value : name,
-            Label : 'Item Name',
+            Label : '{i18n>ItemName}',
         },{
             $Type : 'UI.DataField',
             Value : description,
-            Label : 'Item Description',
+            Label : '{i18n>ItemDescription}',
         },{
             $Type : 'UI.DataField',
             Value : aval_Status_status,
-            Label : 'Item Availability Status',
+            Label : '{i18n>ItemAvailabilityStatus}',
             Criticality : aval_Status.criticality,
         },]
 );
@@ -136,7 +136,7 @@ annotate service.Categories with @(
                 {
                     $Type : 'Common.SortOrderType',
                     Property : category,
-                    Descending : true,
+                    Descending : false,
                 },
             ],
         },
@@ -200,13 +200,13 @@ annotate service.Cable_Parent with @(
     UI.Facets : [
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'General Information',
+            Label : '{i18n>GeneralInformation}',
             ID : 'GeneralInformation',
             Target : '@UI.FieldGroup#GeneralInformation',
         },
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'Cables',
+            Label : '{i18n>Cables}',
             ID : 'Cables',
             Target : 'cables/@UI.PresentationVariant#Cables',
         },
@@ -217,20 +217,20 @@ annotate service.Cables with @(
         {
             $Type : 'UI.DataField',
             Value : ID,
-            Label : 'Cable ID',
+            Label : '{i18n>CableId}',
         },{
             $Type : 'UI.DataField',
             Value : shielding,
-            Label : 'Cable Shielding',
+            Label : '{i18n>CableShielding}',
         },
         {
             $Type : 'UI.DataField',
             Value : msrp,
-            Label : 'Price',
+            Label : '{i18n>Price}',
         },{
             $Type : 'UI.DataField',
             Value : aval_Status_status,
-            Label : 'Availability Status',
+            Label : '{i18n>AvailabilityStatus}',
             Criticality : aval_Status.criticality,
         },]
 );
@@ -265,13 +265,13 @@ annotate service.Mixer_Parent with @(
     UI.Facets : [
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'General Information',
+            Label : '{i18n>GeneralInformation}',
             ID : 'GeneralInformation',
             Target : '@UI.FieldGroup#GeneralInformation1',
         },
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'Mixers',
+            Label : '{i18n>Mixers}',
             ID : 'Items',
             Target : 'mixers/@UI.LineItem#Items',
         },
@@ -282,52 +282,52 @@ annotate service.Mixers with @(
         {
             $Type : 'UI.DataField',
             Value : ID,
-            Label : 'Mixer ID',
+            Label : '{i18n>MixerId}',
         },
         {
             $Type : 'UI.DataField',
             Value : model_name,
-            Label : 'Model Name',
+            Label : '{i18n>ModelName}',
         },{
             $Type : 'UI.DataField',
             Value : manufacturer_name,
-            Label : 'Manufacturer Name',
+            Label : '{i18n>ManufacturerName}',
         },
         {
             $Type : 'UI.DataField',
             Value : aval_Status_status,
-            Label : 'Availability Status',
+            Label : '{i18n>AvailabilityStatus}',
             Criticality : aval_Status.criticality,
         },
         {
             $Type : 'UI.DataField',
             Value : operating_hours,
-            Label : 'Operating Hours',
+            Label : '{i18n>OperatingHours}',
         },{
             $Type : 'UI.DataField',
             Value : serial_number,
-            Label : 'Serial Number',
+            Label : '{i18n>SerialNumber}',
         },{
             $Type : 'UI.DataField',
             Value : faults,
-            Label : 'Faults',
+            Label : '{i18n>Faults}',
         },{
             $Type : 'UI.DataField',
             Value : msrp,
-            Label : 'Price',
+            Label : '{i18n>Price}',
         },]
 );
 annotate service.Lamp_Parent with @(
     UI.Facets : [
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'General Information',
+            Label : '{i18n>GeneralInformation}',
             ID : 'GeneralInformation',
             Target : '@UI.FieldGroup#GeneralInformation',
         },
         {
             $Type : 'UI.ReferenceFacet',
-            Label : 'Lamps',
+            Label : '{i18n>Lamps}',
             ID : 'Lamps',
             Target : 'lamps/@UI.PresentationVariant#Lamps',
         },
@@ -338,48 +338,48 @@ annotate service.Lamps with @(
         {
             $Type : 'UI.DataField',
             Value : ID,
-            Label : 'Lamp ID',
+            Label : '{i18n>LampId}',
             ![@UI.Importance] : #High,
         },
         {
             $Type : 'UI.DataField',
             Value : model_name,
-            Label : 'Model Name',
+            Label : '{i18n>ModelName}',
         },{
             $Type : 'UI.DataField',
             Value : manufacturer_name,
-            Label : 'Manufacturer Name',
+            Label : '{i18n>ManufacturerName}',
             ![@UI.Importance] : #High,
         },
         {
             $Type : 'UI.DataField',
             Value : aval_Status_status,
-            Label : 'Availability Status',
+            Label : '{i18n>AvailabilityStatus}',
             Criticality : aval_Status.criticality,
             ![@UI.Importance] : #High,
         },
         {
             $Type : 'UI.DataField',
             Value : description,
-            Label : 'Description',
+            Label : '{i18n>Description}',
         },
         {
             $Type : 'UI.DataField',
             Value : operating_hours,
-            Label : 'Operating Hours',
+            Label : '{i18n>OperatingHours}',
         },
         {
             $Type : 'UI.DataField',
             Value : serial_number,
-            Label : 'Serial Number',
+            Label : '{i18n>SerialNumber}',
         },{
             $Type : 'UI.DataField',
             Value : faults,
-            Label : 'Faults',
+            Label : '{i18n>Faults}',
         },{
             $Type : 'UI.DataField',
             Value : msrp,
-            Label : 'Price',
+            Label : '{i18n>Price}',
         },]
 );
 annotate service.Mixers with {
@@ -516,12 +516,12 @@ annotate service.Mixer_Parent with @(
             {
                 $Type : 'UI.DataField',
                 Value : categories.type,
-                Label : 'Type',
+                Label : '{i18n>Type}',
             },
             {
                 $Type : 'UI.DataField',
-                Value : categories_name,
-                Label : 'Category',
+                Value : categories.category,
+                Label : '{i18n>Category}',
             },],
     }
 );
@@ -533,10 +533,11 @@ annotate service.Lamp_Parent with @(
                 $Type : 'UI.DataField',
                 Value : categories.type,
                 Label : '{i18n>Type}',
-            },{
+            },
+            {
                 $Type : 'UI.DataField',
-                Value : categories_name,
-                Label : 'Category',
+                Value : categories.category,
+                Label : '{i18n>Category}',
             },],
     }
 );
@@ -548,10 +549,11 @@ annotate service.Cable_Parent with @(
                 $Type : 'UI.DataField',
                 Value : categories.type,
                 Label : '{i18n>Type}',
-            },{
+            },
+            {
                 $Type : 'UI.DataField',
-                Value : categories_name,
-                Label : 'Category',
+                Value : categories.category,
+                Label : '{i18n>Category}',
             },],
     }
 );
@@ -565,3 +567,6 @@ annotate service.Cable_Parent with @(
         },
     }
 );
+annotate service.Mixer_Parent with {
+    categories @Common.Text : categories.category
+};
