@@ -1,1 +1,2 @@
-ID;operating_hours;serial_number;model_name;manufacturer_name;faults;msrp;aval_Status_status;category_name
+ID;operating_hours;serial_number;model_name;manufacturer_name;faults;msrp;aval_Status_status;mixer_Parent_name
+722b2b40-d63d-4270-b00a-5bbff822c908;9516;serial_number1638;ZED 22FX;Allen&Heath;faults9457;54779.03;B;Analog_Audio_Mixer

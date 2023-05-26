@@ -66,7 +66,8 @@
                 "sap.m": {},
                 "sap.ui.core": {},
                 "sap.ushell": {},
-                "sap.fe.templates": {}
+                "sap.fe.templates": {},
+                "sap.f": {}
             }
         },
         "contentDensities": {
@@ -106,7 +107,12 @@
                     "target": "CablesObjectPage"
                 },
                 {
-                    "pattern": "Mixers({key}):?query:",
+                    "pattern": "Lamp_Parent({key}):?query:",
+                    "name": "LampsObjectPage",
+                    "target": "LampsObjectPage"
+                },
+                {
+                    "pattern": "Mixer_Parent({key}):?query:",
                     "name": "MixersObjectPage",
                     "target": "MixersObjectPage"
                 },
@@ -140,7 +146,54 @@
                     "options": {
                         "settings": {
                             "editableHeaderContent": false,
-                            "entitySet": "Mixers"
+                            "entitySet": "Mixer_Parent",
+                            "controlConfiguration": {
+                                "mixers/@com.sap.vocabularies.UI.v1.LineItem#Items": {
+                                    "columns": {
+                                        "DataField::manufacturer_name": {
+                                            "width": "200px"
+                                        },
+                                        "DataField::model_name": {
+                                            "width": "250px"
+                                        },
+                                        "DataField::mixer_Parent_name": {
+                                            "width": "150px"
+                                        },
+                                        "DataField::aval_Status_status": {
+                                            "width": "150px"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "LampsObjectPage": {
+                    "type": "Component",
+                    "id": "LampsObjectPage",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "editableHeaderContent": false,
+                            "entitySet": "Lamp_Parent",
+                            "controlConfiguration": {
+                                "lamps/@com.sap.vocabularies.UI.v1.LineItem#Lamps": {
+                                    "columns": {
+                                        "DataField::aval_Status_status": {
+                                            "width": "150px"
+                                        },
+                                        "DataField::lamp_Parent_name": {
+                                            "width": "150px"
+                                        },
+                                        "DataField::manufacturer_name": {
+                                            "width": "250px"
+                                        },
+                                        "DataField::model_name": {
+                                            "width": "300px"
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 },

@@ -13,7 +13,15 @@ sap.ui.define(['sap/ui/core/mvc/ControllerExtension'], function (ControllerExten
                     // for salesOrder 2919431 navigate to CustomMaterialDetailsPage
                     if (oLineContextData.category === "Cable") {
                         oRouting.navigateToRoute("CablesObjectPage", {
-							"key": "name='" + oLineContextData.name.replace(/ /g, "_") + "'" 
+							"key": "name='" + oLineContextData.name.replace(/ /g, "_") + "'" + ",IsActiveEntity=true"
+                        });
+                    } else if (oLineContextData.category === "Lamp") {
+                        oRouting.navigateToRoute("LampsObjectPage", {
+							"key": "name='" + oLineContextData.name.replace(/ /g, "_") + "'" + ",IsActiveEntity=true"
+                        });
+                    } else if (oLineContextData.category === "Mixer") {
+                        oRouting.navigateToRoute("MixersObjectPage", {
+							"key": "name='" + oLineContextData.name.replace(/ /g, "_") + "'" + ",IsActiveEntity=true"
                         });
                     } else {
                         // return false to trigger the default internal navigation

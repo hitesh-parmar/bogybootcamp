@@ -53,6 +53,7 @@ entity Lamps
     faults : String(100);
     msrp : String(100);
     description : String(100);
+    aval_Status : Association to one Aval_Status;
 }
 
 entity Mixers
@@ -110,3 +111,4 @@ entity Lamp_Parent
     lamps : Composition of many Lamps on lamps.lamp_Parent = $self;
     categories : Association to one Categories;
 }
+

@@ -44,7 +44,9 @@ Schuko6 1.5m;analog;Cable
 Schuko8 3m;analog;Cable
 1kW;halogen;Lamp
 650W;halogen;Lamp
-PAR Lamp;led;Lamp
+PAR LED;led;Lamp
 1kW Profiler;halogen;Lamp
-Audio Mixer;analog;Mixer
+Analog Audio Mixer;analog;Mixer
 Stagebox;analog;Other
+PAR;halogen;Lamp
+2kW;halogen;Lamp
